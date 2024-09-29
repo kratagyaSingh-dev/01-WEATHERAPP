@@ -1,0 +1,22 @@
+https://api.openweathermap.org/data/2.5/weather?q={city name}&appid={API key}
+api key: 315d1002d986f1b147d16411d70d1575
+
+
+things to be added in a weather web app:
+
+-DATE AND TIME OF USER'S TIMEZONE
+-CITY,COUNTRY OF USER
+-SUNRISE AND SUNSET TIME
+description of weather(mist/cloudy/sunny etc.. )
+icon pic of the weather's description
+TEMPERATURE 
+FEELS LIKE TEMPERATURE
+HUMIDITY %
+VISIBILITY
+WIND SPEED
+CLOUDY %
+
+const unixTime=1727459719;
+
+  const millTime=new Date(unixTime*1000)
+  const formattedDateTime=millTime.toLocaleString();
